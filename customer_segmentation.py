@@ -54,8 +54,8 @@ def find_thresholds(dataframe, variable):
     up_limit : float
                The upper threshold.
     """
-    q1 = dataframe[variable].quantile(0.25)
-    q3 = dataframe[variable].quantile(0.75)
+    q1 = dataframe[variable].quantile(0.01)
+    q3 = dataframe[variable].quantile(0.99)
     q_range = q3 - q1
     low_limit = q1 - 1.5 * q_range
     up_limit = q3 + 1.5 * q_range
