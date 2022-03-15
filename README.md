@@ -1,5 +1,5 @@
 # RFM Segmentation
- A mini project for basic RFM customer segmentation, to better understand the concept.
+ A mini project for RFM customer segmentation, to better understand the concept.
  
  **Dataset used:**  
  Online Retail Dataset  
